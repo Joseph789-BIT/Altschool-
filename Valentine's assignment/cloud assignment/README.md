@@ -3,9 +3,9 @@
   >Your login name: altschool i.e., home directory /home/altschool. The home directory contains the following sub-directories: code, tests, personal, misc Unless otherwise specified, you are running commands from the home directory 
   
 
-  `vagrant@ubuntu-focal:~$ sudo useradd -m Altschool` // Create user Altschool(root user)
+  `vagrant@ubuntu-focal:~$ sudo useradd -m Altschool` // Create user altschool(root user)
 
-  `Altschool@ubuntu-focal:~$ mkdir code tests personal misc` // Create folders
+  `altschool@ubuntu-focal:~$ mkdir code tests personal misc` // Create folders
 
  ## Instructions:
   > A. Change directory to the tests directory using absolute pathname
@@ -101,7 +101,7 @@
 
    . . .
    
-    Altschool@ubuntu-focal:~$ sudo vi /etc/ssh/sshd_config
+    altschool@ubuntu-focal:~$ sudo vi /etc/ssh/sshd_config
    ![ Password based authentication](./img/l.PNG)
 
    . . .
@@ -110,7 +110,7 @@
 
    . . .
 
-       Altschool@ubuntu-focal:~$ sudo vi /etc/ssh/sshd_config
+      altschool@ubuntu-focal:~$ sudo vi /etc/ssh/sshd_config
    ![Password based authentication](./img/m.PNG)
     
 
